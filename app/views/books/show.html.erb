@@ -1,4 +1,8 @@
-<h1><%= @book.title %><h1>
+<h1><%= @book.title %></h1>
+<div id='highest_review'>
+  <h2>Highest Review</h2>
+  <%= @book.highest_review %>
+</div>
 
 Reviews
 <% @book.reviews.each do |review| %>
